@@ -1,26 +1,44 @@
-![alt text](https://github.com/iamyombo/api20230714/blob/master/public/images/EcommerceAPI.PNG?raw=true)
+![Postman Screenshot](https://github.com/iamyombo/api20230714/blob/master/public/images/EcommerceAPI.PNG?raw=true)
 
+<<<<<<< HEAD
 ![Alt text]([image link](https://github.com/iamyombo/api20230714/blob/master/public/images/EcommerceAPI.PNG?raw=true))
 
 
 ## TASK DESCRIPTION:
+=======
+### TASK DESCRIPTION:
+>>>>>>> f452ccd (API Task Update with ReadMe Update)
 
 Ecommerce API Task Challenge.
 
-## API Design:
+### Database Interaction:
 
-## Database Interaction:
+.env file database connection settings;
+
+DB_CONNECTION=mysql
+DB_HOST=host.docker.internal
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=sail
+DB_PASSWORD=password
 
 ### Dockerization:
 
-## Testing and Documentation:
+The docker built on Laravel Sail and comprises of;
 
-## Evaluation Criteria:
+Laravel Sail 8.2/app | apicrud-app-laravel.test-1
+MySql Server 8.0 | apicrud-app-mysql-1
+Selenium 1.4.0 | apicrud-app-selenium-1
+Redis:alpine 7.0.12 | apicrud-app-redis-1
 
-## Delivery:
+### Testing and Documentation:
+
+### Evaluation Criteria:
+
+### Delivery:
 
 https://github.com/iamyombo/api20230714
 
-## License
+### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
