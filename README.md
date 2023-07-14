@@ -1,4 +1,4 @@
-<p align="center"><a href="https://www.linkedin.com/in/iamyombo/" target="_blank"><img src="images/EcommerceAPI.PNG" width="600" alt="CRUD Product API"></a></p>
+![alt text](https://github.com/iamyombo/api20230714/blob/master/public/images/EcommerceAPI.PNG?raw=true)
 
 ![Alt text]([image link](https://github.com/iamyombo/api20230714/blob/master/public/images/EcommerceAPI.PNG?raw=true))
 
