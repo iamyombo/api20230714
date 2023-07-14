@@ -53,4 +53,8 @@ class ProductController extends Controller
         $product->delete();
         return response('Product Deleted', 204);
     }
+
+    public function bycategory(Product $product)
+    {
+    }
 }
