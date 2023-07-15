@@ -1,6 +1,6 @@
 ![Postman Screenshot](https://github.com/iamyombo/api20230714/blob/master/public/images/EcommerceAPI.PNG?raw=true)
 
-![Alt text]([image link](https://github.com/iamyombo/api20230714/blob/master/public/images/EcommerceAPI.PNG?raw=true))
+![Postman Screenshot](https://github.com/iamyombo/api20230714/blob/master/public/images/Category.PNG?raw=true)
 
 ## TASK DESCRIPTION:
 
