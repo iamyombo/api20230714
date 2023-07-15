@@ -10,12 +10,12 @@
 
 Ecommerce API Task Challenge.
 
-# Using POSTMAN:
+## Using POSTMAN:
 
 BASE_URL : http://localhost:80
 Version One: V1
 
-# ENDPOINTS
+## ENDPOINTS
 
 ENDPOINTS
 HTTP METHOD
@@ -25,7 +25,7 @@ REQUEST / RESPONSE FORMAT
 
 ---
 
-# Get Products
+## Get Products
 
 GET
 {{BASE_URL}}/api/v1/product
@@ -34,7 +34,7 @@ JSON
 
 ---
 
-# Create Products
+## Create Products
 
 POST
 {{BASE_URL}}/api/v1/product
@@ -43,7 +43,7 @@ JSON
 
 ---
 
-# Get Single Product
+## Get Single Product
 
 GET
 {{BASE_URL}}/api/v1/ product/{{ProductID}}
@@ -52,7 +52,7 @@ JSON
 
 ---
 
-# Update Product Details
+## Update Product Details
 
 PUT
 { {BASE_URL}}/api/v1/product/{{ ProductID }}
@@ -61,7 +61,7 @@ JSON
 
 ---
 
-# Delete Product
+## Delete Product
 
 DELETE
 {{BASE_URL}}/api/v1/product/{{ ProductID }}
@@ -70,7 +70,7 @@ JSON
 
 ---
 
-# Get Categories
+## Get Categories
 
 GET
 {{BASE_URL}}/api/v1/category
@@ -79,7 +79,7 @@ JSON
 
 ---
 
-# Create Category
+## Create Category
 
 POST {{BASE_URL}}/api/v1/category
 201 Created
@@ -87,7 +87,7 @@ JSON
 
 ---
 
-# Get Single Category
+## Get Single Category
 
 GET
 {{BASE_URL}}/api/v1/category/{{CategoryID}}
@@ -96,7 +96,7 @@ JSON
 
 ---
 
-# Update Category
+## Update Category
 
 PUT
 {{BASE_URL}}/api/v1/category/{{CategoryID}}
@@ -105,7 +105,7 @@ JSON
 
 ---
 
-# Delete Category
+## Delete Category
 
 DELETE
 {{BASE_URL}}/api/v1/category/{{CategoryID}}
@@ -114,7 +114,7 @@ JSON
 
 ---
 
-# Get Category By Product
+## Get Category By Product
 
 GET
 {{BASE_URL}}/api/v1/product/bycategory/{{ProductID}}
@@ -123,7 +123,7 @@ JSON
 
 ---
 
-# Get Products By Category
+## Get Products By Category
 
 GET
 {{BASE_URL}}/api/v1/category/byproducts/{{CategoryID}}
@@ -135,10 +135,15 @@ JSON
 .env file database connection settings;
 
 DB_CONNECTION=mysql
+
 DB_HOST=host.docker.internal
+
 DB_PORT=3306
+
 DB_DATABASE=laravel
+
 DB_USERNAME=sail
+
 DB_PASSWORD=password
 
 ## Dockerization:
