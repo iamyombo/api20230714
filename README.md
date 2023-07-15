@@ -2,7 +2,7 @@
 
 ![Alt text]([image link](https://github.com/iamyombo/api20230714/blob/master/public/images/EcommerceAPI.PNG?raw=true))
 
-### TASK DESCRIPTION:
+## TASK DESCRIPTION:
 
 =======
 
@@ -15,35 +15,122 @@ Ecommerce API Task Challenge.
 BASE_URL : http://localhost:80
 Version One: V1
 
-# Endpoints
+# ENDPOINTS
 
-# ENDPOINTS HTTP METHOD URL STATUS CODES REQUEST / RESPONSE FORMAT
+ENDPOINTS
+HTTP METHOD
+URL
+STATUS CODES
+REQUEST / RESPONSE FORMAT
 
-Get Products GET {{BASE_URL}}/api/v1/product 200 OK JSON
+---
 
-Create Products POST {{BASE_URL}}/api/v1/product 201 Created JSON
+# Get Products
 
-Get Single Product GET {{BASE_URL}}/api/v1/ product/{{ProductID}} 200 OK JSON
+GET
+{{BASE_URL}}/api/v1/product
+200 OK
+JSON
 
-Update Product Details PUT { {BASE_URL}}/api/v1/product/{{ ProductID }} 200 OK JSON
+---
 
-Delete Product DELETE {{BASE_URL}}/api/v1/product/{{ ProductID }} 204 No Content JSON
+# Create Products
 
-Get Categories GET {{BASE_URL}}/api/v1/category 200 OK JSON
+POST
+{{BASE_URL}}/api/v1/product
+201 Created
+JSON
 
-Create Category POST {{BASE_URL}}/api/v1/category 201 Created JSON
+---
 
-Get Single Category GET {{BASE_URL}}/api/v1/category/{{CategoryID}} 200 Ok JSON
+# Get Single Product
 
-Update Category PUT {{BASE_URL}}/api/v1/category/{{CategoryID}} 200 OK JSON
+GET
+{{BASE_URL}}/api/v1/ product/{{ProductID}}
+200 OK
+JSON
 
-Delete Category DELETE {{BASE_URL}}/api/v1/category/{{CategoryID}} 204 No Content JSON
+---
 
-Get Category By Product GET {{BASE_URL}}/api/v1/product/bycategory/{{ProductID}} 200 OK JSON
+# Update Product Details
 
-Get Products By Category GET {{BASE_URL}}/api/v1/category/byproducts/{{CategoryID}} 200 OK JSON
+PUT
+{ {BASE_URL}}/api/v1/product/{{ ProductID }}
+200 OK
+JSON
 
-### Database Interaction:
+---
+
+# Delete Product
+
+DELETE
+{{BASE_URL}}/api/v1/product/{{ ProductID }}
+204 No Content
+JSON
+
+---
+
+# Get Categories
+
+GET
+{{BASE_URL}}/api/v1/category
+200 OK
+JSON
+
+---
+
+# Create Category
+
+POST {{BASE_URL}}/api/v1/category
+201 Created
+JSON
+
+---
+
+# Get Single Category
+
+GET
+{{BASE_URL}}/api/v1/category/{{CategoryID}}
+200 Ok
+JSON
+
+---
+
+# Update Category
+
+PUT
+{{BASE_URL}}/api/v1/category/{{CategoryID}}
+200 OK
+JSON
+
+---
+
+# Delete Category
+
+DELETE
+{{BASE_URL}}/api/v1/category/{{CategoryID}}
+204 No Content
+JSON
+
+---
+
+# Get Category By Product
+
+GET
+{{BASE_URL}}/api/v1/product/bycategory/{{ProductID}}
+200 OK
+JSON
+
+---
+
+# Get Products By Category
+
+GET
+{{BASE_URL}}/api/v1/category/byproducts/{{CategoryID}}
+200 OK
+JSON
+
+## Database Interaction:
 
 .env file database connection settings;
 
@@ -54,7 +141,7 @@ DB_DATABASE=laravel
 DB_USERNAME=sail
 DB_PASSWORD=password
 
-### Dockerization:
+## Dockerization:
 
 The docker built on Laravel Sail and comprises of;
 
@@ -63,14 +150,14 @@ MySql Server 8.0 | apicrud-app-mysql-1
 Selenium 1.4.0 | apicrud-app-selenium-1
 Redis:alpine 7.0.12 | apicrud-app-redis-1
 
-### Testing and Documentation:
+## Testing and Documentation:
 
-### Evaluation Criteria:
+## Evaluation Criteria:
 
-### Delivery:
+## Delivery:
 
 https://github.com/iamyombo/api20230714
 
-### License
+## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
