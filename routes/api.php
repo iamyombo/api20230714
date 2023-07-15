@@ -28,5 +28,5 @@ Route::prefix('v1')->group(function () {
     Route::apiResource('product', ProductController::class);
     Route::apiResource('category', CategoryController::class);
 
-    Route::get('product/by-category/{category}', ProductController::class);
+    // Route::get('product/by-category/{category}', ProductController::class);
 });
